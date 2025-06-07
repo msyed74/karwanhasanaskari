@@ -97,11 +97,12 @@ const Booking = () => {
     console.log("Sending email with params:", emailParams); // For debugging
   
     emailjs.send(
-      'service_y9vq0xu',
-      'template_9v0ioi8',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       emailParams,
-      'O3lNhRC6HEEYizMJH'
-    ).then(() => {
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
       toast({
         title: "Booking Submitted Successfully!",
         description: `Your booking ID is ${bookingData.bookingId}. We'll contact you within 24 hours.`,

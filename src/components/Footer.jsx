@@ -15,12 +15,12 @@ const Footer = () => {
   ];
 
   const destinations = [
-    { name: 'Karbala Tours', href: '/destinations' },
-    { name: 'Najaf Tours', href: '/destinations' },
-    { name: 'Mashhad Tours', href: '/destinations' },
-    { name: 'Qom Tours', href: '/destinations' },
-    { name: 'Baghdad Tours', href: '/destinations' },
-    { name: 'Samarra Tours', href: '/destinations' },
+    { name: 'Karbala ', href: '/destinations' },
+    { name: 'Najaf ', href: '/destinations' },
+    { name: 'Mashhad ', href: '/destinations' },
+    { name: 'Qom ', href: '/destinations' },
+    { name: 'Baghdad ', href: '/destinations' },
+    { name: 'Samarra ', href: '/destinations' },
   ];
 
   return (

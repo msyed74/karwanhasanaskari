@@ -77,9 +77,10 @@ const Booking = () => {
     const emailParams = {
       to_name: 'Karwan e Hasan Askari',
       from_name: `${formData.firstName} ${formData.lastName}`,
-      email: formData.email.trim(), // Important fix
+      email: formData.email.trim(),
       phone: formData.phone,
       address: formData.address,
+      booking_date: bookingData.bookingDate,
       emergency_contact: formData.emergencyContact,
       departure_city: formData.departureCity,
       travel_date: formData.travelDate,
@@ -91,12 +92,13 @@ const Booking = () => {
       booking_id: bookingData.bookingId,
       package: packagesData.find(p => p.id === parseInt(formData.selectedPackage))?.name || ''
     };
+    
   
     console.log("Sending email with params:", emailParams); // For debugging
   
     emailjs.send(
       'service_y9vq0xu',
-      'template_8skic3w',
+      'template_9v0ioi8',
       emailParams,
       'O3lNhRC6HEEYizMJH'
     ).then(() => {

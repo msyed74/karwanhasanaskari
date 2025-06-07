@@ -298,7 +298,7 @@ const Contact = () => {
                 <div className="space-y-4">
                   <motion.a
                     whileHover={{ scale: 1.02 }}
-                    href="tel:+919876543210"
+                    href="tel:+917804835704"
                     className="flex items-center p-4 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors"
                   >
                     <Phone className="h-6 w-6 text-emerald-600 mr-4" />

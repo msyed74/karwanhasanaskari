@@ -370,7 +370,7 @@ const Home = () => {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="bg-white text-emerald-600 hover:bg-gray-100">
-                <Link to="/packages">
+                <Link to="/TourPackages">
                   <Clock className="mr-2 h-5 w-5" />
                   View Packages
                 </Link>

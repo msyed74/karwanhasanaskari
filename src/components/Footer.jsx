@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter } from 'luci
 const Footer = () => {
   const quickLinks = [
     { name: 'About Us', href: '/about' },
-    { name: 'Tour Packages', href: '/packages' },
+    { name: 'Tour Packages', href: '/Tourpackages' },
     { name: 'Destinations', href: '/destinations' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Testimonials', href: '/testimonials' },

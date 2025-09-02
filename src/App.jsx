@@ -13,7 +13,7 @@ import Gallery from '@/pages/Gallery';
 import FAQ from '@/pages/FAQ';
 import Blog from '@/pages/Blog';
 import Contact from '@/pages/Contact';
-import sitemap from '@/pages/'
+
 
 function App() {
   return (
@@ -30,7 +30,6 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
